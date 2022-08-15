@@ -1,0 +1,14 @@
+name: Updater
+
+on:
+  push:
+  workflow_dispatch:
+  
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+    - name: update
+      run: |
+        curl -X POST https://api.github.com/repos/wzwtt/Android-actions/dispatches -H "Accept: application/vnd.github.everest-preview+json" -H "Authorization: token ghp_xxxxxxxxxxxxxxxxxxxxxxxxxx" --data '{"event_type": "webhook-1"}'
+        

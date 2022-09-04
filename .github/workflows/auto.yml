@@ -10,5 +10,5 @@ jobs:
     steps:
     - name: update
       run: |
-        curl -X POST https://api.github.com/repos/wzwtt/Android-actions/dispatches -H "Accept: application/vnd.github.everest-preview+json" -H "Authorization: token ${{ secrets.ACCESS_TOKEN }}" --data '{"event_type": "webhook-1"}'
+        curl -X POST https://api.github.com/repos/wzwtt/Android-actions/dispatches -H "Accept: application/vnd.github.everest-preview+json" -H "Authorization: token ${{ secrets.ACCESS_TOKEN }}" --data '{"event_type": "webhook-1", "client_payload": {"version": "lineage-19.1"}}'
         

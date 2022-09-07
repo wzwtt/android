@@ -6,7 +6,10 @@
   
   <!-- Devices additions -->
   <!-- rosy -->
-  <project path="device/xiaomi/rosy" name="wzwtt/android_device_xiaomi_rosy" remote="mirror" />
-  <project path="kernel/xiaomi/rosy" name="baunilla/android_kernel_xiaomi_rosy" remote="mirror" />
-  <project path="vendor/xiaomi/rosy" name="baunilla/android_vendor_xiaomi_rosy" remote="mirror" />
+  <!--  <project path="device/xiaomi/rosy" name="wzwtt/android_device_xiaomi_rosy" remote="mirror" />  -->
+  <!--  <project path="kernel/xiaomi/rosy" name="baunilla/android_kernel_xiaomi_rosy" remote="mirror" />  -->
+  <!--  <project path="vendor/xiaomi/rosy" name="baunilla/android_vendor_xiaomi_rosy" remote="mirror" />  -->
+  <project path="device/xiaomi/rosy" name="wzwtt/android_device_xiaomi_rosy" revision="refs/heads/13.0" remote="mirror" />
+  <project path="kernel/xiaomi/rosy" name="NFS-Project/android_kernel_xiaomi_rosy" revision="refs/heads/13.0" remote="mirror" />
+  <project path="vendor/xiaomi/rosy" name="NFS-Project/android_vendor_xiaomi_rosy" revision="refs/heads/13.0" remote="mirror" />
 </manifest>

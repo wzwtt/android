@@ -12,7 +12,7 @@
            review="review.lineageos.org" />
   
   <remote  name="mirror"
-           fetch="https://hub.nuaa.cf" />
+           fetch="https://hub.yzuu.cf" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />

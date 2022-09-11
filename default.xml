@@ -8,7 +8,7 @@
            fetch="https://gitlab.com" />
   
   <remote  name="lineage"
-           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/lineageOS/"
+           fetch="https://mirrors.bfsu.edu.cn/git/lineageOS/"
            review="review.lineageos.org" />
   
   <remote  name="mirror"
@@ -18,7 +18,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
-           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP"
+           fetch="https://mirrors.bfsu.edu.cn/git/AOSP"
            review="android-review.googlesource.com"
            revision="refs/tags/android-13.0.0_r4" />
 

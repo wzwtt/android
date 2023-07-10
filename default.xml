@@ -12,7 +12,7 @@
            review="review.lineageos.org" />
   
   <remote  name="mirror"
-           fetch="https://ghdown.wzwtt.cf/https://github.com" />
+           fetch="https://github.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
